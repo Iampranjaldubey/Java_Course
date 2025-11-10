@@ -15,11 +15,11 @@ public class Block {
         objCounter=10;
         System.out.println("object counter is: "+ objCounter);
     }
-//    // main class
-//    public static void main(String[] args) {
-//        System.out.println("main started");
-//        Block obj1 = new Block();
-//        Block obj2 = new Block();
-//        System.out.println("main ended");
-//    }
-}
+    // main class
+       public static void main(String[] args) {
+           System.out.println("main started");
+           Block obj1 = new Block();
+            Block obj2 = new Block();
+           System.out.println("main ended");
+        }
+    }
