@@ -1,7 +1,13 @@
 
 public class Main {
-    public static void main(String[] args) {
+    static String college="abcd";
+    String name;
+    public Main(String name){
+        this.name=name;
+    }
 
-        System.out.printf("Hello and welcome!");
+    public static void main(String[] args) {
+        Main s1= new Main("pranjal");
+
     }
 }

@@ -45,7 +45,7 @@ public class Students implements Comparable<Students> {
     }
 
     public static void main(String[] args) {
-        Students s1 = new Students("Pranjal", 23, 56);
+        Students s1 = new Students("Pranjal", 53, 26);
         Students s2 = new Students("Aman", 21, 12);
         Students s3 = new Students("Rahul", 22, 45);
 
@@ -54,7 +54,11 @@ public class Students implements Comparable<Students> {
         list.add(s2);
         list.add(s3);
 
-        Collections.sort(list);
+//        Collections.sort(list);
+        //sorting According to rollno
+//        Collections.sort(list,new RollnoComparator());
+        //sorting Along age
+        Collections.sort(list,new AgeComparator());
 
         for (Students s : list) {
             System.out.println(s.getName());
