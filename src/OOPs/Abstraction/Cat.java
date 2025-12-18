@@ -1,6 +1,6 @@
 package OOPs.Abstraction;
 
-public class Cat extends Animal {
+public class  Cat extends Animal {
 
     public Cat(){
         super();

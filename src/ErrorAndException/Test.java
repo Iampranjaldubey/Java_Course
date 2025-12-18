@@ -1,4 +1,4 @@
-package File_Handing;
+package ErrorAndException;
 
 public class Test {
     public static void main(String[] args) {

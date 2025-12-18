@@ -1,5 +1,4 @@
-package File_Handing;
-import java.io.IOException;
+package ErrorAndException;
 
 public class ThrowsExeption {
     public void validateAge(int age) throws Exception{

@@ -54,11 +54,8 @@ public class Students implements Comparable<Students> {
         list.add(s2);
         list.add(s3);
 
-//        Collections.sort(list);
-        //sorting According to rollno
-//        Collections.sort(list,new RollnoComparator());
-        //sorting Along age
-        Collections.sort(list,new AgeComparator());
+        Collections.sort(list);
+
 
         for (Students s : list) {
             System.out.println(s.getName());

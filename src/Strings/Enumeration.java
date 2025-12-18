@@ -5,8 +5,8 @@ public class Enumeration {
         enum WeekDay {
             MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
         }
-        WeekDay today = WeekDay.MONDAY;
+        WeekDay tommorow = WeekDay.MONDAY;
 
-        System.out.println("Today is: " + today);
+        System.out.println("Today is: " + tommorow);
     }
 }

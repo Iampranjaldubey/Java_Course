@@ -1,4 +1,4 @@
-package File_Handing;
+package ErrorAndException;
 
 public class AgeExeption extends Exception{
     public AgeExeption(String s){

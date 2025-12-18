@@ -20,13 +20,7 @@ public class test {
         th1.start();
         th2.start();
 
-//        SharedBuffer buffer = new SharedBuffer();
-//
-//        Thread producer = new Thread(new Producerthread(buffer));
-//        Thread consumer = new Thread(new ConsumerThread(buffer));
-//
-//        producer.start();
-//        consumer.start();
+
 
     }
 }

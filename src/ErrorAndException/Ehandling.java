@@ -1,4 +1,4 @@
-package File_Handing;
+package ErrorAndException;
 
 public class Ehandling {
     public void m1(int a){
